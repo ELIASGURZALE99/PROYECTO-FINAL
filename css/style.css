@@ -1,0 +1,215 @@
+
+   
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+
+    font-family: 'Courier New', Courier, monospace;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0rem;
+    border-bottom: 1px solid black;
+    background-color: yellow;
+}
+.header-menu{
+    list-style-type: none;
+}
+.header-menu li{
+  display: inline-block;
+    margin: 2rem 1rem;
+}
+.header-img{
+    width: 100px;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:  0rem 10rem;
+}
+.main-img{
+    width: 60%;   
+}
+.main-info{
+    width: 50%;   
+}
+.main-info div{
+    margin-top: 1.5rem;
+    background-color: yellow;
+    display: inline-block;
+    padding:0.5rem 1.5rem ;
+    border-radius: 20px;
+}
+.tarjetas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tarjeta{
+      width: 40%;
+      gap: 1rem;
+      text-align: center;
+      margin-top: 5rem;
+      margin-bottom: 5rem;
+}
+ .img-guz{
+    width: 85%;
+ }
+ .img-18{
+    width: 85%;
+ }
+
+ .img-box{
+    width: 85%;
+ }
+ .foot{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0rem;
+    border-bottom: 1px solid black;
+    background-color: yellow;
+ }
+ .datos-empresa ul{
+    display: inline-block;
+    margin: 2rem 1rem;
+}
+
+
+.main-nutricion{
+ display: flex;
+
+}
+
+.img-nutri{
+    width:60%
+     ;
+}
+.tarjetas-b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.tarjeta-b{
+  width: 40%;
+      gap: 1rem;
+      text-align: center;
+      margin-top: 5rem;
+      margin-bottom: 5rem;
+
+}
+ .verduras{
+    width: 85%;
+ }
+.carnes{
+    width: 85%;
+}
+.grasas-s{
+   width: 85%;
+} 
+.h2-b{
+    gap: 10px;;
+}
+.tienda-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:  0rem 10rem;
+    border-bottom: 2px solid black;
+
+}
+ .foto-c{
+     display: flex;
+    width: min-content;
+    width: 40%;
+ }
+ .articulos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.articulo{
+      width: 40%;
+      gap: 1rem;
+      text-align: center;
+      margin-top: 5rem;
+      margin-bottom: 5rem;
+}
+.suple-img{ width: 100%;
+
+}
+.cintu-img{width: 120%;
+
+}
+.perso-img{
+    width: 90%;
+}
+.main-fitnes{
+
+display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:  0rem 10rem;
+
+}
+
+
+
+.form{
+    background-image: linear-gradient(-225deg, #FFE29F 0%, #FFA99F 48%, #FF719A 100%);
+    width: 90%;
+max-width: 500px;
+border-radius: 1em;
+padding: 3.5em 1.5em;
+margin: auto;
+}
+.form_container{
+    width: 100%;
+    display: grid;
+    grid-auto-columns: 100%;
+    gap: 1rem;
+
+  
+
+}
+form-title{
+    
+    width: 100%;
+    font-size: 1.9rem;
+    margin-bottom: .4rem;
+   
+}
+.form-input{
+    font-size: 1rem;
+    padding: .8em 1em;
+    outline: none;
+    border: none;
+    border-radius: 0.2em;
+}
+.form-input-input-message{
+resize: none;
+    outline: none;
+    border: none;
+    padding: 1.8em 1em;
+    margin-bottom: .5em;
+
+}
+.form-cta{
+font-size: 1rem;
+background-color: #089fe0;
+color:#fff;
+border: none;
+font-weight: 300;
+padding: .7em 0;
+border-radius: .2em;
+cursor:pointer;
+
+
+}
